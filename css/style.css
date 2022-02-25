@@ -63,8 +63,47 @@
   height: 78vh;
 }
 .aboutUs{
-  color:#c21926;
+  color:rgba(255, 255, 255, 60%);
 
+}
+.shape{
+  background-color: #E5E5E5 ;
+  height: 350px;
+  width: 350px;
+  animation: wave 5s ease-in-out infinite ;
+  
+  z-index: 1;
+  border: 3px solid ;
+  overflow: hidden;
+
+}
+.shape img{
+  z-index: 2;
+  position: relative;
+  top: 9%;
+  left: 14%;
+  width: 264px;
+}
+
+@keyframes wave {
+  0%, 100% {
+      border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%;
+  }
+  50%{
+      border-radius: 26% 74% 51% 49% / 22% 53% 47% 78%;
+  }
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutme{
+  border-left: solid 3px #c21926;
+}
+.aboutmetext{
+  padding-left: 32px;
 }
 @media only screen and (max-width:1024px) {
   .icons{
