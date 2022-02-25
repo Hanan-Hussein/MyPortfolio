@@ -17,9 +17,9 @@
 
 }
 .name {
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing:12px;
-  font-size: 40px;
+  /* font-size: 40px; */
   margin-left: 81px;
 }
 
@@ -44,12 +44,24 @@
   color: rgba(255, 255, 255,0.6)
   
 }
-.union img{
+.union img, .union2 img{
   width: 5vw;
 
 }
 .union{
+  position: relative;
+  top: 153px;
+  left: 60px;
+}
+.union2{
   position: absolute;
-  top: 229px;
-  left: 138px;
+  top:404px;
+  left: 530px;
+
+}
+
+@media only screen and (max-width:1024px) {
+  .icons{
+    display: none;
+  }
 }
