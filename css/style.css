@@ -26,7 +26,7 @@
 .landingpage{
   
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 .landingphoto img{
@@ -50,16 +50,22 @@
 }
 .union{
   position: relative;
-  top: 153px;
-  left: 60px;
+  top: 88px;
+  left: 56px;
 }
 .union2{
-  position: absolute;
-  top:404px;
-  left: 530px;
+  position: relative;
+  top: -8px;
+  left: 449px;
 
 }
+.firstpage{
+  height: 78vh;
+}
+.aboutUs{
+  color:#c21926;
 
+}
 @media only screen and (max-width:1024px) {
   .icons{
     display: none;
