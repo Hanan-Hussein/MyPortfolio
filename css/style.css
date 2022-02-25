@@ -8,6 +8,48 @@
   background-color: #0C0C0C;
   min-height: 100vh;
 }
-.bg-dark{
+.navcolor{
   background-color: #0C0C0C !important;
+  height: 22vh;
+}
+.navbar{
+  padding-bottom: 0;
+
+}
+.name {
+  font-weight: bold;
+  letter-spacing:12px;
+  font-size: 40px;
+  margin-left: 81px;
+}
+
+.landingpage{
+  
+  position: relative;
+  top: 100px;
+}
+
+.landingphoto img{
+  width: 26vw;
+
+}
+.career{
+  margin-left: 81px;
+  color:#c21926;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.tagline{
+  margin-left: 81px;
+  color: rgba(255, 255, 255,0.6)
+  
+}
+.union img{
+  width: 5vw;
+
+}
+.union{
+  position: absolute;
+  top: 229px;
+  left: 138px;
 }
