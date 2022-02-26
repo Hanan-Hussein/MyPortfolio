@@ -110,6 +110,9 @@
   display: flex;
   flex-direction: column;
 }
+.contactbtn{
+  margin-bottom: 4em;
+}
 
 @keyframes wave {
   0%, 100% {
@@ -137,6 +140,19 @@
   background-color: #c21926;
   border:none;
   box-shadow: none;
+}
+.contact{
+  border: 1px solid #c21926;
+
+}
+input{
+  border-top:0;
+  border-right: 0;
+  border-left: 0;
+
+}
+.contactinput{
+  background-color:#0C0C0C; 
 }
 @media only screen and (max-width:1024px) {
   .icons{
