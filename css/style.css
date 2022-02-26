@@ -20,27 +20,44 @@
   /* font-weight: bold; */
   letter-spacing:12px;
   /* font-size: 40px; */
-  margin-left: 81px;
+  /* margin-left: 81px; */
 }
 
 .landingpage{
   
   position: relative;
-  top: 50px;
+  top: 60px;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  padding: 45px;
+  /* border: 1px solid #c21926; */
 }
+/* #content {position:relative;width:400px;height:300px;} */
+#content:before, #content:after, #content>:first-child:before, #content>:first-child:after {
+    position:absolute;
+    width:80px; height: 80px;
+    border-color:#c21926; 
+    border-style:solid; 
+    content: ' ';
+}
+#content:before {top:0;left:0;border-width: 1px 0 0 1px}
+#content:after {top:0;right:0;border-width: 0 0 0 0}
+#content>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
+#content>:first-child:after {bottom:0;left:0;border-width: 0 0 0 0}
 
-.landingphoto img{
+.landingphoto img{  
   width: 26vw;
 
 }
 .career{
-  margin-left: 81px;
+  /* margin-left: 81px; */
   color:#c21926;
   font-weight: bold;
   letter-spacing: 4px;
 }
 .tagline{
-  margin-left: 81px;
+  /* margin-left: 81px; */
   color: rgba(255, 255, 255,0.6)
   
 }
@@ -63,7 +80,8 @@
   height: 78vh;
 }
 .aboutUs{
-  color:rgba(255, 255, 255, 60%);
+  /* color:rgba(255, 255, 255, 60%); */
+  color: #FFFFFF;
 
 }
 .shape{
@@ -105,6 +123,7 @@
 }
 .aboutmetext{
   padding-left: 32px;
+  color:rgba(255, 255, 255, 60%);
 }
 @media only screen and (max-width:1024px) {
   .icons{
