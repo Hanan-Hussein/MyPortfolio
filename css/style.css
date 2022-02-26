@@ -4,9 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #0C0C0C;
+}
 .bgcolor{
   background-color: #0C0C0C;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .navcolor{
   background-color: #0C0C0C !important;
@@ -80,9 +83,9 @@
   left: 449px;
 
 }
-.firstpage{
+/* .firstpage{
   height: 78vh;
-}
+} */
 .aboutUs{
   /* color:rgba(255, 255, 255, 60%); */
   color: #FFFFFF;
@@ -159,6 +162,9 @@ input{
 }
 .contactinput{
   background-color:#0C0C0C; 
+}
+.heart img{
+  width: 2vw;
 }
 @media only screen and (max-width:1024px) {
   .icons{
