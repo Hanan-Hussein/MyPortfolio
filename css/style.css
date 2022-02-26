@@ -106,6 +106,10 @@
   left: 14%;
   width: 264px;
 }
+.projecttext{
+  display: flex;
+  flex-direction: column;
+}
 
 @keyframes wave {
   0%, 100% {
@@ -128,6 +132,11 @@
 .aboutmetext{
   padding-left: 32px;
   color:rgba(255, 255, 255, 60%);
+}
+.projecttext>.btn-primary,.projecttext>.btn-primary:focus{
+  background-color: #c21926;
+  border:none;
+  box-shadow: none;
 }
 @media only screen and (max-width:1024px) {
   .icons{
