@@ -72,6 +72,9 @@ body{
   width: 5vw;
 
 }
+.socials img{
+  width: 3vw;
+}
 .union{
   position: relative;
   top: 88px;
@@ -159,6 +162,10 @@ input{
   border-right: 0;
   border-left: 0;
   
+}
+.me{
+  display: flex;
+  flex-direction: column;
 }
 .contactinput{
   background-color:#0C0C0C; 
