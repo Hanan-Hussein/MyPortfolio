@@ -1,12 +1,12 @@
 // declaring variables
 var linkedin= document.getElementById('linkedin');
-var mail = document.getElementById('mail');
+var mail = document.getElementById('mailing');
 var github=document.getElementById('github');
 
 
 // add eventlistener
 linkedin.addEventListener('click', linkedinEvent);
-mail.addEventListener('click', mail);
+mail.addEventListener('click', mailingEvent);
 github.addEventListener('click',githubEvent);
 
 function linkedinEvent(e){
@@ -16,8 +16,9 @@ function linkedinEvent(e){
         '_blank'
     );
 }
-function mail(e){
+function mailingEvent(e){
     e.preventDefault();
+    location.href='mailto:hanan.ibrahim@students.moringaschool.com ?body=HI there';
 }
 function githubEvent (e){
     e.preventDefault();
