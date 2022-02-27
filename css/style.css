@@ -82,6 +82,8 @@ body{
 }
 .socials img{
   width: 3vw;
+  cursor: pointer;
+
 }
 .union{
   position: relative;
