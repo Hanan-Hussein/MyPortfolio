@@ -1,8 +1,9 @@
 # PERSONAL PORTFOLIO
 ##### By Hanan Hussein Ibrahim
-##### Live site 
+##### [Live site](https://hanan-hussein.github.io/MyPortfolio/) 
 
 
+<img width="1440" alt="Screenshot 2022-02-27 at 21 54 09" src="https://user-images.githubusercontent.com/36597096/155899515-ae892dc6-4e51-4187-8ee8-1a4be627170c.png">
 
 
 
@@ -17,7 +18,7 @@
 
 ## Description
 
-This is my personal porfolio showcasing my work .The figma designs are available here 
+This is my personal porfolio showcasing my work .The figma designs are available here [figma](https://www.figma.com/file/7atThvOLc6Ln5TkqNCpZSj/My-portfolio?node-id=0%3A1)
 
 ## Installation
 * Clone the github repo
@@ -43,6 +44,9 @@ This is my personal porfolio showcasing my work .The figma designs are available
 ## Authors Info
 Can be reached by the email below for questions and comments 
 
-Email - hanhussein035@gmail.com
+[Email](hanan.ibrahim@student.moringaschool.com)
 
 [Go Back to the top](#By-Hanan-Hussein-Ibrahim)
+## License
+Find the license information [here](https://github.com/Hanan-Hussein/MyPortfolio/blob/master/LICENSE) 
+
