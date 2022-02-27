@@ -11,7 +11,7 @@
 + [Description](#description)
 + [Installation Requirement](#Requirements)
 + [Technology Used](#technology-used)
-+ [Reference](#reference)
+
 + [Authors Info](#Authors-Info)
 
 
@@ -31,17 +31,12 @@ This is my personal porfolio showcasing my work .The figma designs are available
 
 [Go Back to the top](#By-Hanan-Hussein-Ibrahim)
 ## Technology Used
-* HTML - which was used to build the structure of the pages.
-
-* CSS - which was used to style the pages
-* Javascript
-* Bootstrap
-
-## Reference
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
 * [JS](https://en.wikipedia.org/wiki/JavaScript)
 * [Bootstrap](https://getbootstrap.com/)
+
+
 
 [Go Back to the top](#By-Hanan-Hussein-Ibrahim)
 
