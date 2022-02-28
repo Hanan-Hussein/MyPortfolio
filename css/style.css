@@ -26,6 +26,7 @@ body{
 }
 .brand img{
   height: 20vh;
+  margin-top: 0;
 }
 .name {
   /* font-weight: bold; */
@@ -81,7 +82,7 @@ body{
 
 }
 .socials img{
-  width: 3vw;
+  /* width: 3vw; */
   cursor: pointer;
 
 }
@@ -228,7 +229,9 @@ font-size: x-large;
 }
 .firstPage{
   height: 100vh;
+  margin-bottom: 10vh;
 }
+
 
 @media only screen and (max-width:1024px) {
   .icons{
@@ -244,8 +247,19 @@ font-size: x-large;
   }
   @media only screen and (max-width:700px){
 
-  body{
+  *{
     overflow-x:hidden;
+  }
+  .firstPage{
+    height: auto;
+  }
+  .landingpage{
+    position: initial;
+    overflow-y: hidden;
+  }
+  #content,.name,.career,.aboutUs{
+    position: initial;
+    overflow-y: hidden;
   }
   .landingphoto {
     display: flex;
@@ -254,9 +268,13 @@ font-size: x-large;
     /* align-self: center; */
 }
   .landingphoto img{
-    width: 40vw;
+    width: 80vw;
   }
- 
- 
+  .heart img{
+    width: 5vw;
+  }
 
+ 
+  #content>:first-child:before {bottom:0;right:0;border-width: 0 0 0 0}  
+#content:before {top:0;left:0;border-width: 0 0 0 0} 
 }
